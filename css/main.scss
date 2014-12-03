@@ -180,7 +180,6 @@ body{
 	header{
 
 		margin:0 auto;
-		height:25px;
 		position:relative;
 		
 		#logo{
@@ -191,8 +190,11 @@ body{
 		nav{
 			position:absolute;
 			bottom:0;
-			width:100%;
+			top:0;
+            left:0;
+            right:0;
 			background:#000;
+            
 			ul{
 				width:900px;
 				li{
@@ -406,15 +408,20 @@ body{
 
         margin:0 auto;
         background-color: rgba(0, 0, 0, .8);
-        color:#ffc600;
+        color:#fff;
     
         .content{
             padding:20px;
 //            font-family:'alex_brushregular';
-            font-family:tahoma;
+            font-family: 'Open Sans', sans-serif;
+            position:relative;
             h1{
                 font-size:40px;
-                margin-bottom:30px;
+
+            }
+            
+            h2{
+                font-size:24px;
             }
             
             p{
@@ -424,7 +431,7 @@ body{
         
         iframe{
             width:100%;
-            height:200px;
+//            height:200px;
         }
         
 		.flyer{
@@ -707,48 +714,126 @@ a.submitbtn:hover,input.submitbtn:hover{
 /*CIRCULAR COUNTDOWN*/
 
 
-
+//
 .vegas-overlay {}
 .vegas-background {
-	image-rendering: optimizeQuality;
-	-ms-interpolation-mode: bicubic;
-	z-index:-2 !important;
-	/* counteracts global img modification by twitter bootstrap library */
+    image-rendering: optimizeQuality;
+    -ms-interpolation-mode: bicubic;
+    z-index:-2 !important;
+    /* counteracts global img modification by twitter bootstrap library */
     max-width: none !important;
     -webkit-animation: animate-bg 10s linear infinite;
     -moz-animation: animate-bg 10s linear infinite;
     -o-animation: animate-bg 10s linear infinite;
     animation: animate-bg 10s linear infinite;
 }
-@keyframes animate-bg {
-    from {
-       transform: scale(1);
-    }
-    to {
-       transform: scale(1.2);
+//@keyframes animate-bg {
+//    from {
+//       transform: scale(1);
+//    }
+//    to {}
+//       transform: scale(1.2);
+//    }
+//}
+//@-webkit-keyframes animate-bg {
+//    from {
+//        -webkit-transform: scale(1);
+//    }
+//    to {
+//       -webkit-transform: scale(1.2);
+//    }
+//}
+//@-moz-keyframes animate-bg {
+//    from {
+//        -moz-transform: scale(1);
+//    }
+//    to {
+//       -moz-transform: scale(1.2);
+//    }
+//}
+//@-o-keyframes animate-bg {
+//    from {
+//        -o-transform: scale(1);
+//    }
+//    to {
+//       -o-transform: scale(1.2);
+//    }
+//}
+
+
+
+.green.button {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #fff; -webkit-box-shadow: 0 0 9px #fff; }
+  50% { background-color: #fff200; -webkit-box-shadow: 0 0 18px #fff200; }
+  to { background-color: #fff200; -webkit-box-shadow: 0 0 9px #fff200; }
+}
+
+
+#flyer-wrapper{
+    .content{
+        #theflyer{
+            margin:0 auto; 
+            width:750px;
+            display:block; 
+            position:absolute;
+            left:50%;
+            transform:translateX(-50%);
+            border:1px solid #bc9200;
+            border-left:none;
+            border-right:none;;
+        }
     }
 }
-@-webkit-keyframes animate-bg {
-    from {
-        -webkit-transform: scale(1);
-    }
-    to {
-       -webkit-transform: scale(1.2);
+
+
+#wrap header nav ul li a{
+
+    
+}
+
+header{
+    text-align:center;
+    ul#nav{
+        position:relative;
+        background:#000;
+        li{
+            display:inline-block;
+            a{
+                line-height:50px;
+                height:50px;
+                padding:0 10px;
+            }
+        }
     }
 }
-@-moz-keyframes animate-bg {
-    from {
-        -moz-transform: scale(1);
-    }
-    to {
-       -moz-transform: scale(1.2);
-    }
-}
-@-o-keyframes animate-bg {
-    from {
-        -o-transform: scale(1);
-    }
-    to {
-       -o-transform: scale(1.2);
-    }
+
+.glow1{
+    //                font-family: 'Qwigley', cursive;
+                
+                
+                    display: block;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    border: none;
+                    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+                    color: rgba(255,255,255,1);
+                    text-decoration: normal;
+    //                text-align: center;
+    //                -o-text-overflow: clip;
+    //                text-overflow: clip;
+    //                white-space: pre;
+                    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #fff200 , 0 0 70px #fff200 , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    //                -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    //                -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    //                -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    //                transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }

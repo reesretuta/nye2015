@@ -11,17 +11,16 @@
 	
     <meta property="og:title" content="GO PRODUCTIONS - LA and Hollywood’s HOTTEST Asian Parties!" />
     <!-- <meta property="og:url" content="http://www.goproductionsla.com" /> -->
-	<meta property="og:image" content="<img/200x200.jpg?v=1" />
+	<meta property="og:image" content="img/200x200.jpg?v=1" />
 	<meta property="og:description" content="GO PRODUCTIONS bringing you the best in LA and Hollywood nightlife.  Step inside for hot party pictures, videos, event information and more from GO PRODUCTIONS." />
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="vegas/src/jquery.vegas.css" type="text/css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="flipclock/compiled/flipclock.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/bower_components/FlipClock/compiled/flipclock.css" type="text/css" media="screen" title="no title" charset="utf-8">
     
-
-	<!-- <link rel="stylesheet" href="<?= bloginfo('template_url') ?>/css/bounceInDown.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Qwigley|Open+Sans' rel='stylesheet' type='text/css'>	<!-- <link rel="stylesheet" href="<?= bloginfo('template_url') ?>/css/bounceInDown.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="<?= bloginfo('template_url') ?>/css/bounceOutUp.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
 	<!-- <link rel="stylesheet" href="<?= bloginfo('template_url') ?>/circularcountdown/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
 	<link rel="shortcut icon" href="img/16x16.png">
@@ -29,7 +28,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="bower_components/angular/angular.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="flipclock/compiled/flipclock.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bower_components/FlipClock/compiled/flipclock.min.js" type="text/javascript" charset="utf-8"></script>
     
     
 	<script src="vegas/src/jquery.vegas.js"></script>
@@ -48,38 +47,34 @@
 </head>
 
 
-<body class="test">
-            <!-- <div class="clock"></div> -->
+<body>
 
-<div class="social">
-	<a target="_blank" href="https://www.facebook.com/GoProLA" class="facebook"></a>
-	<a target="_blank" href="https://twitter.com/goproductionsla" class="twitter"></a>
-	<a target="_blank" href="http://instagram.com/goproductionsla/" class="instagram"></a>
-</div>
-<div class="tab"><a href="/table-service"><img src="img/reservations_btn.png" border="0"></a></div>	
+<!-- <div class="social">
+    <a target="_blank" href="https://www.facebook.com/GoProLA" class="facebook"></a>
+    <a target="_blank" href="https://twitter.com/goproductionsla" class="twitter"></a>
+    <a target="_blank" href="http://instagram.com/goproductionsla/" class="instagram"></a>
+</div> -->
+<div class="tab green button"><a href="/table-service"><img src="img/reservations_btn.png" border="0"></a></div>	
 <div id="wrap">
 	<header class="innerwrap">
-        
-		<div id="logo">
-			<a href="/"><img src="img/logo0.png"></a>
-		</div>
-		<nav>
-			<ul>
-				<li><a class="home" href="#/">HOME</a></li>
-				<li><a href="#/details">EVENT DETAILS</a></li>
-				<li><a class="" href="http://www.goproductionsla.com/gpselect/" target="_blank">BUY TICKETS</a></li>
-				<li><a href="#/directions">DIRECTIONS</a></li>
-                <!-- <li><a class="page-template-template-contact-php" href="/contact">INFORMATION</a></li> -->
-			</ul>
-		</nav>
+		<ul id="nav">
+			<li><a class="home" href="#/">HOME</a></li>
+			<li><a href="#/details">EVENT DETAILS</a></li>
+			<li><a class="" href="http://www.goproductionsla.com/gpselect/" target="_blank">BUY TICKETS</a></li>
+			<li><a href="#/directions">DIRECTIONS</a></li>
+            <!-- <li><a class="page-template-template-contact-php" href="/contact">INFORMATION</a></li> -->
+		</ul>
 	</header>
     
     
 
 
 <div id="flyer-wrapper" class="innerwrap">
+   
+    
 	<ui-view>
     </ui-view>
+    
 </div>
 
 
