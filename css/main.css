@@ -429,6 +429,26 @@ a.submitbtn:hover, input.submitbtn:hover {
   -o-animation: animate-bg 10s linear infinite;
   animation: animate-bg 10s linear infinite; }
 
+@keyframes animate-bg {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.2); } }
+@-webkit-keyframes animate-bg {
+  from {
+    -webkit-transform: scale(1); }
+  to {
+    -webkit-transform: scale(1.2); } }
+@-moz-keyframes animate-bg {
+  from {
+    -moz-transform: scale(1); }
+  to {
+    -moz-transform: scale(1.2); } }
+@-o-keyframes animate-bg {
+  from {
+    -o-transform: scale(1); }
+  to {
+    -o-transform: scale(1.2); } }
 .green.button {
   -webkit-animation-name: greenPulse;
   -webkit-animation-duration: 2s;
