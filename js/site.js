@@ -2,16 +2,24 @@ $(document).ready(function() {
 		    "use strict";
 		    $.vegas('slideshow', {
 		        backgrounds: [
-			// { src: template_url+'/img/bg/color/1.jpg', fade: 700 },
-			{ src: './img/bg/color/4.jpg', fade: 700 },
-			{ src: './img/bg/color/crowd1.jpg', fade: 700 },
-			{ src: './img/bg/color/crowd4.jpg', fade: 700 },
-			{ src: './img/bg/color/crowd6.jpg', fade: 700 },
-			{ src: './img/bg/color/crowd2.jpg', fade: 700 },
-			{ src: './img/bg/color/crowd3.jpg', fade: 700 },
-			{ src: './img/bg/color/5.jpg', fade: 700 },
-			{ src: './img/bg/color/2.jpg', fade: 700 },
-			{ src: './img/bg/color/3.jpg', fade: 700 }
+            // { src: './img/bg/color/4.jpg', fade: 700 },
+            // { src: './img/bg/color/crowd1.jpg', fade: 700 },
+            // { src: './img/bg/color/crowd4.jpg', fade: 700 },
+            // { src: './img/bg/color/crowd6.jpg', fade: 700 },
+            // { src: './img/bg/color/crowd2.jpg', fade: 700 },
+            // { src: './img/bg/color/crowd3.jpg', fade: 700 },
+            // { src: './img/bg/color/5.jpg', fade: 700 },
+            // { src: './img/bg/color/2.jpg', fade: 700 },
+            // { src: './img/bg/color/3.jpg', fade: 700 }
+			{ src: './img/bg/nye/01312014_LURE_0097.jpg', fade: 700 },
+			{ src: './img/bg/nye/01312014_LURE_0192.jpg', fade: 700 },
+			{ src: './img/bg/nye/02142014_LURE_0052.jpg', fade: 700 },
+			{ src: './img/bg/nye/02142014_LURE_0091.jpg', fade: 700 },
+			{ src: './img/bg/nye/02212014_LURE_0089.jpg', fade: 700 },
+			{ src: './img/bg/nye/12062013_LURE_0187.jpg', fade: 700 },
+			{ src: './img/bg/nye/12132013_LURE_0088.jpg', fade: 700 },
+			{ src: './img/bg/nye/12132013_LURE_0090.jpg', fade: 700 },
+			{ src: './img/bg/nye/122192013_LURE_0153.jpg', fade: 700 }
 		],
 		delay: 7000 //7000 
 		    })('overlay', {src: './vegas/src/overlays/07.png'});
