@@ -315,48 +315,6 @@ body {
   .homeguestlist .rightside #glistpage-guestlist {
     position: relative; }
 
-/*table-service*/
-#vip-wrap {
-  position: relative; }
-  #vip-wrap #confirmation {
-    font-family: arial, tahoma;
-    display: none;
-    position: absolute;
-    top: 75px;
-    left: 0; }
-  #vip-wrap #tableserviceform {
-    display: block;
-    width: 380px; }
-    #vip-wrap #tableserviceform input, #vip-wrap #tableserviceform select {
-      display: block;
-      width: 380px;
-      margin-bottom: 10px; }
-    #vip-wrap #tableserviceform #submittableservice {
-      padding: 23px;
-      display: block;
-      width: 380px; }
-
-.guestlistform {
-  width: 100%;
-  display: block; }
-  .guestlistform .glist_user {
-    float: left; }
-    .guestlistform .glist_user input {
-      display: block;
-      width: 280px;
-      height: 15px;
-      padding: 3px 5px;
-      font-size: 13px; }
-    .guestlistform .glist_user select.glist_count {
-      width: 294px; }
-  .guestlistform .glist_submitwrap {
-    float: left; }
-    .guestlistform .glist_submitwrap a.submitglist {
-      padding: 23px;
-      margin-left: 10px;
-      display: block;
-      width: 196px; }
-
 a.submitbtn, input.submitbtn {
   text-align: center;
   border: 2px solid #ccc;
@@ -471,9 +429,14 @@ a.submitbtn:hover, input.submitbtn:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   border: 1px solid #bc9200;
   border-left: none;
   border-right: none; }
+#flyer-wrapper .content.eventdetails ul {
+  margin-left: 50px; }
+  #flyer-wrapper .content.eventdetails ul li {
+    list-style-type: circle; }
 
 header {
   text-align: center;
@@ -489,14 +452,11 @@ header {
         height: 50px;
         padding: 0 10px; }
 
-.glow1 {
-  display: block;
+.glow {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 10px;
   border: none;
-  font: normal 48px/normal "Warnes", Helvetica, sans-serif;
   color: white;
   text-decoration: normal;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #fff200, 0 0 70px #fff200, 0 0 80px #ff00de, 0 0 100px #ff00de; }
@@ -546,3 +506,12 @@ header {
   .yellow.button a span {
     font-size: 12px;
     display: block; }
+
+#photos {
+  margin-top: 20px; }
+  #photos img {
+    width: 270px;
+    width: 550px;
+    margin: 0 5px 5px 0;
+    height: auto;
+    float: left; }
