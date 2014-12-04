@@ -40,6 +40,13 @@ $(document).ready(function() {
                 
             });
             
+            
+            
+            $("ul#nav a").on('click',function(){
+                $("ul#nav a").removeClass('glow');
+                $(this).addClass('glow');
+                
+            });
 });
 
 

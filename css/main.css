@@ -176,7 +176,8 @@ body {
             text-decoration: none;
             padding: 3px 10px;
             font-size: 15px; }
-            #wrap header nav ul li a.active, #wrap header nav ul li a:hover {
+            #wrap header nav ul li a.active, #wrap header nav ul li a:hover, #wrap header nav ul li a:focus {
+              outline: 0;
               color: #000;
               background: #fff; }
   #wrap #maincontent {
@@ -541,7 +542,7 @@ header {
     display: block; }
 
 #photos {
-  margin-top: 20px; }
+  margin-top: 30px; }
   #photos img {
     width: 270px;
     width: 550px;

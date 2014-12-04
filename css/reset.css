@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 { font-weight:normal; }
 
 a		 												{ color:blue; }
 
-a:focus  												{ outline: thin dotted; }
+a:focus  												{ outline: 0; }
 
 li														{ list-style:none; }
 

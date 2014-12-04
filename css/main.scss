@@ -235,8 +235,8 @@ body{
 						text-decoration: none;
 						padding: 3px 10px;
 						font-size: 15px;
-						
-						&.active, &:hover{
+						&.active, &:hover, &:focus{
+                            outline:0;
 							color:#000;
 							background:#fff;
 						}
@@ -768,7 +768,8 @@ header{
 }
 
 #photos{
-    margin-top:20px;
+    margin-top:30px;
+    
     img{
         width:270px;
         width:550px;
