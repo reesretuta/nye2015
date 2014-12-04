@@ -33,7 +33,7 @@ $(document).ready(function() {
                     $("header").css('border-bottom','1px solid #8b8b8b');
                 }else{
                     $("#flyer-wrapper").fadeIn(300);
-                    $(this).text('-');
+                    $(this).html('&mdash;');
                     $("header").css('border-bottom','none');
                 }
                 
