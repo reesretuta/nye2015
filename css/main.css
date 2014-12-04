@@ -118,7 +118,21 @@ body {
   width: 960px;
   margin: 100px auto; }
   #wrap .innerwrap {
-    width: 590px; }
+    width: 590px;
+    position: relative; }
+    #wrap .innerwrap a.close {
+      background: #fff;
+      color: #000;
+      border: 1px solid #000;
+      padding: 1px 3px;
+      position: absolute;
+      right: -8px;
+      top: -8px;
+      height: 20px;
+      line-height: 20px;
+      width: 20px;
+      -webkit-border-radius: 3px 3px 3px 3px;
+      border-radius: 3px 3px 3px 3px; }
   #wrap header {
     margin: 0 auto;
     position: relative; }
