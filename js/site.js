@@ -54,7 +54,7 @@ var myApp = angular.module('myApp', ['ui.router']);
 // For Component users, it should look like this:
 // var myApp = angular.module('myApp', [require('angular-ui-router')]);
 
-myApp.config(function($stateProvider, $urlRouterProvider) {
+myApp.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
   //
   // For any unmatched url, redirect to /state1
   $urlRouterProvider.otherwise("/");
@@ -75,7 +75,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: "../partials/directions.html"
     });
     
-    // $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
     
 });
 
