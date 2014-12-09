@@ -470,7 +470,8 @@ a.submitbtn:hover, input.submitbtn:hover {
 #flyer-wrapper .content.eventdetails ul {
   margin-left: 50px; }
   #flyer-wrapper .content.eventdetails ul li {
-    list-style-type: circle; }
+    list-style-type: circle;
+    line-height: 21px; }
 
 header {
   text-align: center;
