@@ -727,8 +727,12 @@ header{
     border: none;
 //    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
     color: rgba(255,255,255,1);
-    text-decoration: none;
+    text-decoration: underline;
     text-shadow: none;
+    font-weight:bold;
+    text-decoration: underline;
+    font-size:18px;
+    
 }
 
 

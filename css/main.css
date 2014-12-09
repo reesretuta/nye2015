@@ -499,8 +499,11 @@ header {
 .glow2 {
   border: none;
   color: white;
-  text-decoration: none;
-  text-shadow: none; }
+  text-decoration: underline;
+  text-shadow: none;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px; }
 
 @-webkit-keyframes orangellowPulse {
   from {
