@@ -543,7 +543,9 @@ header {
     display: block; }
 
 #photos {
-  margin-top: 30px; }
+  margin-top: 30px;
+  display: block;
+  clear: both; }
   #photos img {
     width: 270px;
     width: 550px;
