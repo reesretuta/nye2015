@@ -2,23 +2,20 @@ $(document).ready(function() {
 		    "use strict";
 		    $.vegas('slideshow', {
 		        backgrounds: [
-            // { src: './img/bg/nye/01312014_LURE_0097.jpg', fade: 700 },
-            // { src: './img/bg/nye/01312014_LURE_0192.jpg', fade: 700 },
-            // { src: './img/bg/nye/02142014_LURE_0052.jpg', fade: 700 },
-            // { src: './img/bg/nye/02142014_LURE_0091.jpg', fade: 700 },
-            // { src: './img/bg/nye/02212014_LURE_0089.jpg', fade: 700 },
-            // { src: './img/bg/nye/12062013_LURE_0187.jpg', fade: 700 },
-            // { src: './img/bg/nye/12132013_LURE_0088.jpg', fade: 700 },
-            // { src: './img/bg/nye/12132013_LURE_0090.jpg', fade: 700 },
-            // { src: './img/bg/nye/122192013_LURE_0153.jpg', fade: 700 }
-            
-            { src: './img/eventdetails/Man-on-a--Ledge-1.jpg', fade: 700 },
-            { src: './img/eventdetails/Man-on-a-Ledge-4.jpg', fade: 700 },
-            { src: './img/eventdetails/Raw-4.jpg', fade: 700 },
-            { src: './img/eventdetails/XC1D0312.jpg', fade: 700 },
-            { src: './img//eventdetails/Man-on-a-Ledge-3.jpg', fade: 700 },
-            { src: './img/eventdetails/Man-on-a-Ledge-2.jpg', fade: 700 },
-            { src: './img/eventdetails/Raw-3.jpg', fade: 700 }
+                // { src: "./img/istock/legs.jpg", fade: 700},
+                { src: './img/eventdetails/Man-on-a--Ledge-1.jpg', fade: 700 },
+                { src: "./img/istock/man.jpg", fade: 700},
+                { src: './img/eventdetails/Man-on-a-Ledge-4.jpg', fade: 700 },
+                { src: "./img/istock/legs.jpg", fade: 700},
+                { src: "./img/istock/dragon.jpg", fade: 700},
+                { src: "./img/eventdetails/1264967_563644967022433_1511256583_o.jpg", fade: 700},
+                { src: './img//eventdetails/Man-on-a-Ledge-3.jpg', fade: 700 },
+                { src: "./img/istock/iStock_000032264892Medium.jpg", fade: 700},
+                { src: "./img/istock/iStock_000008415355Medium.jpg", fade: 700}
+            // { src: './img/eventdetails/Raw-4.jpg', fade: 700 },
+            // { src: './img/eventdetails/XC1D0312.jpg', fade: 700 },
+            // { src: './img/eventdetails/Man-on-a-Ledge-2.jpg', fade: 700 },
+            // { src: './img/eventdetails/Raw-3.jpg', fade: 700 }
         
             
 		],

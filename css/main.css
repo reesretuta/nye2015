@@ -270,7 +270,8 @@ body {
       #wrap #flyer-wrapper .content p {
         margin-bottom: 25px; }
     #wrap #flyer-wrapper iframe {
-      width: 100%; }
+      width: 100%;
+      margin-top: 20px; }
     #wrap #flyer-wrapper .flyer {
       background-color: rgba(255, 255, 255, 0.8);
       color: #000; }
@@ -561,3 +562,6 @@ header {
     margin: 0 5px 5px 0;
     height: auto;
     float: left; }
+
+.justify {
+  text-align: justify; }

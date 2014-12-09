@@ -399,6 +399,7 @@ body{
         
         iframe{
             width:100%;
+            margin-top:20px;
 //            height:200px;
         }
         
@@ -797,4 +798,9 @@ header{
         float:left;
         
     }
+}
+
+
+.justify{
+    text-align:justify;
 }
