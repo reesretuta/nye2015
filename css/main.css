@@ -503,7 +503,7 @@ header {
   text-shadow: none;
   font-weight: bold;
   text-decoration: underline;
-  font-size: 18px; }
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px #fff200, 0 0 70px #fff200, 0 0 80px #ff00de, 0 0 100px #ff00de; }
 
 @-webkit-keyframes orangellowPulse {
   from {
